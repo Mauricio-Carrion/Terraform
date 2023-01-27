@@ -38,16 +38,17 @@ resource "google_container_node_pool" "k8s_preemptible_nodes" {
   name       = "k8s-node-pool"
   location   = "us-central1"
   cluster    = google_container_cluster.k8s.name
-  node_count = 2
+  node_count = 1
 
   node_config {
     preemptible  = true
+    disk_size_gb = 100
     machine_type = "e2-medium"
   }
 }
 
 output "jenkins-vm-ip" {
-  value = google_compute_instance.default.network_interface.0.network_ip
+  value = google_compute_instance.default.network_interface.0.access_config.0.nat_ip
 }
 
 
