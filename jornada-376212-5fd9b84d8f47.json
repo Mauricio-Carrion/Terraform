@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "jornada-376212",
+  "private_key_id": "5fd9b84d8f47b02989b0fc024c128f11fe9b62ad",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCxqasi3sqsZFCO\ngRU5yhOaA1/aFUOR6xtGSQ81acJ69vuKnQR8adAri6Twu0DM4fG09ToU9mJTD36I\nOfemVWzcpP4nbeQ5n19F1I0sg3sFT1Xy+leqk3HjuWSUEkgtStPVBdSV+gQT77Td\nPtUZfsy7KGKD9ze2DKput0liG16yHb8XI5LpD+sG4duKwLUSV0kWNVoVhTZVl45W\n7BNEixkLqjNfY0tqMpXJH6Xs0iHideYgZJZmzA59DLb/H/tBS9zYOBhS39i1/pIW\n/H53ZLYwYHqpiCx1sVTqJLKbVNrCksJmZBalZtUeO9XLv72NbZXUXS9D936ivOEV\nSqFyw6AxAgMBAAECggEALnoE15fx7DxH6KezHk2TaCh21E3Ywdz/4xisvlve8R0Y\ne9AMwuFJgILFEObjklWPTjgSzDYSTclRYCDN/Pj/BA+znyv71uku2s06a0kwDxkM\nkoZUFb8BvcGborLPp+2Z0fH3BY8ErxR3u6M6yzMlKtbrQruTGvBgS5tuOpiPYse9\ne5BxOKhrE5cnfhBjllJt2xUk/+5TgV33pMTDA6JPpEWDk5VAApQ1k+IccFCRBh/1\nBFB/gxfararM5Es6/oKDFANLsFIaaT/6jZ7nD0XGUy1gevMvP1pjEmpWtHWJa31J\nALSzgbHI37/nVGp9p092h5YGu48Fwd8+cuXfzsw2EwKBgQD4VlHodF2scMwsROQ8\nPGGScu39fVBO1af/wIxyiLJWH2HqlDq3lQhw0P7Dt7G+viw14xRobuRL+0BHH+8U\nKss2W7kAdZhZCnmghGK8Wm1WqkR0YYM86kQrgL0goJZ9Og7ZVvqMbJIdie+RsJ2c\nVhgIrVAxrZP+RU6GjrosGaDlHwKBgQC3JRKq6ObWrrgJuiNBIvpzn42hR7nu/iAs\n0yAac+Zj32qMQSVA9KkCz6cYHsnOmpI5unjhCbDyvJuyyao0hWqngj9Dh+6ASM5f\nzGj+1MP7yXTxENBGgemsLGEUnT5wJyf9XiM+rPO1Dicsi8/n/DHURb/5etuftWcA\nmJy0+lkArwKBgQDe/aPO966liSPNHI9VB2MV/d12IXBbWb7hCCUVM2nvq35hBXk0\nH77UjtY1KF2SyXEpch6BKBIXqCSvuR0VHtgal4Inx3Blg+JzIG0IdKp5h6qwVl9h\n83oDFja9dXWsPNXYkyGntlX98D4OtGjSWPx7ziSUdyjMya8ZZFAICXtQQQKBgQCH\nt1RHDIILMrw0kRgQ68+2oNS+YD2bqfvD28wdbiebePMm7huiL+uSpriHOkGH9alI\nWDO9Z4YVysiCS8jyVK+9Y9pnu7J0o/8ypHJl7NsymY4sGa6NoTW9HcHvGbssNwf+\nTKVHi7ipQcyryQuPOKbgS7PAN1fK2Q10NqNhxWbxBwKBgDjq7BybSoZpIFrr4CZC\n1KXRcOd4PrY5Nchxw21ubQ3gmJySqcvbA/E0XmPYmgfqYKrNCF0RymtgRRE/+OJM\nibP3uvMRcHYrFcs1dJgrm3iFshXw2sAGtgOrr9JuqcpFZcsa7HgDbw713esJ1Zi6\nE2aBjGvim3hcpIMiIqN++uWm\n-----END PRIVATE KEY-----\n",
+  "client_email": "mauriciocarrion@jornada-376212.iam.gserviceaccount.com",
+  "client_id": "101308116689311222037",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mauriciocarrion%40jornada-376212.iam.gserviceaccount.com"
+}

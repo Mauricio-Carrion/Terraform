@@ -7,14 +7,15 @@ terraform {
   }
 }
 provider "google" {
-  credentials = file("./poised-octane-375919-c7f0e79b6315.json")
-  project     = "poised-octane-375919"
+  credentials = file("./jornada-376212-5fd9b84d8f47.json")
+  project     = "jornada-376212"
   region      = "us-central1"
 }
 resource "google_compute_instance" "default" {
   name         = "jenkins-vm"
-  machine_type = "f1-micro"
+  machine_type = "n1-standard-2"
   zone         = "us-central1-a"
+  tags         = ["jenkins-vm"]
   boot_disk {
     initialize_params {
       image = "ubuntu-os-cloud/ubuntu-2204-lts"
@@ -25,6 +26,19 @@ resource "google_compute_instance" "default" {
 
     access_config {}
   }
+}
+
+resource "google_compute_firewall" "jenkins-port" {
+  name    = "jenkins-port"
+  network = "default"
+
+  allow {
+    protocol = "tcp"
+    ports    = ["8080"]
+  }
+
+  source_ranges = ["0.0.0.0/0"]
+  target_tags   = ["jenkins-vm"]
 }
 
 resource "google_container_cluster" "k8s" {
@@ -46,9 +60,6 @@ resource "google_container_node_pool" "k8s_preemptible_nodes" {
     machine_type = "e2-medium"
   }
 }
-
 output "jenkins-vm-ip" {
   value = google_compute_instance.default.network_interface.0.access_config.0.nat_ip
 }
-
-
